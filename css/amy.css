@@ -131,4 +131,41 @@ a:hover {
 /* Other Colors */
 html {background: #F5F5F5;}
 
+/* Animations */
+.blind-content
+{
+   transition-property: max-height, height;
+   overflow: hidden;
+}
 
+.blind-content.in
+{
+     -webkit-animation: blind-in 3s;
+    animation: blind-in 3s;
+}
+
+.blind-content.out
+{
+  -webkit-animation: blind-out 3s;
+  animation: blind-out 3s;
+}
+
+@-webkit-keyframes blind-in {
+  0% { max-height:0; }
+  100% { max-height: 1000px; }
+}
+
+@-webkit-keyframes blind-out {
+  0% { max-height: 1000px; }
+  100% {  max-height:0;  }
+}
+
+@keyframes blind-in {
+      0% { max-height:0; }
+    100% { max-height: 1000px; }
+}
+
+@keyframes blind-out {
+    0% { max-height: 1000px; }
+    100% {  max-height:0;  }
+}

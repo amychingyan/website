@@ -16,16 +16,17 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script type="text/javascript" language="JavaScript">
  function HideContent(d) {
-   document.getElementById(d).style.display = "none";
-}
+   document.getElementById(d).class = "blind-content out";
+ }
  function ShowContent(d) {
-   document.getElementById(d).style.display = "block";
+   document.getElementById(d).class = "blind-content in";
  }
  function ReverseDisplay(d) {
    if(document.getElementById(d).style.display == "none")
    { document.getElementById(d).style.display = "block"; }
    else { document.getElementById(d).style.display = "none"; }
  }
- </script>
+</script>
+<!-- http://jsfiddle.net/oo48jbxd/3/ -->
 
 </html>
