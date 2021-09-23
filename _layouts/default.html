@@ -5,7 +5,18 @@
   <div class="one column"></div>
   <div class="eight columns">
     <h3>News:</h3>
-
+    
+    {% assign news_dates = site.news | map: "date" %}
+    
+    {% for item in news_dates %}
+    {% if item >= site.time %}
+    {% assign future = true %}
+    {% else %}
+    {% assign future = false %}
+    {% endif %}
+    {% endfor %}
+    
+    {% if future == true %}
     {% for item in site.news %}
     {% if item.date >= site.time %}   
     <p>
@@ -23,6 +34,19 @@
     {% endif %}
     {% endfor %}
     </div>
+    {% else %}
+    {% for item in site.news reversed limit: 5 %}
+    
+    <p>
+      <h6>{{ item.date | date: "%B %-d, %Y" }}</h6> {{item.content}}
+    </p>
+    
+    {% endfor %}
+    
+    {% endif %}
+
+   
+    
     <h3>Projects:</h3>
     {% for item in site.projects reversed %}
     <h6>
