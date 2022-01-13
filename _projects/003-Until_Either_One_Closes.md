@@ -11,4 +11,4 @@ This is an ongoing relationship between two neighbours: Jin Jin Dumpling House, 
 
 A Life of a Craphead project, part of the exhibition *Entertaining Every Second* at aka artist-run centre, initiated in January 2019.
 
-.akjsdhflkajsdhflkajwehrflaishdflkaj
+
