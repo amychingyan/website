@@ -1,10 +1,10 @@
 {% include head.html %}
 {% include header.html %}
-
+<div style="margin-left: 120px; margin-right: 20px;">
 <div class="row">
-  <div class="one column"></div>
-  <div class="eight columns">
-    <h3>News:</h3>
+ 
+  <div class="twelve columns">
+    <h3>News</h3>
     
     {% assign news_dates = site.news | map: "date" %}
     
@@ -20,7 +20,7 @@
     {% for item in site.news %}
     {% if item.date >= site.time %}   
     <p>
-      <h6>{{item.date | date: "%B %-d, %Y"}}</h6> {{item.content}}
+      <em>{{item.date | date: "%B %-d, %Y"}}</em> &mdash; {{item.content}}
     </p>
     {% endif %}
     {% endfor %}
@@ -29,7 +29,7 @@
     {% for item in site.news reversed %}
     {% if item.date <= site.time %}
     <p>
-      <h6>{{ item.date | date: "%B %-d, %Y" }}</h6> {{item.content}}
+      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content}}
     </p>
     {% endif %}
     {% endfor %}
@@ -38,28 +38,28 @@
     {% for item in site.news reversed limit: 5 %}
     
     <p>
-      <h6>{{ item.date | date: "%B %-d, %Y" }}</h6> {{item.content}}
+      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content}}
     </p>
     
     {% endfor %}
     
     {% endif %}
+  </div>
 
    
     
-    <h3>Projects:</h3>
+    <h3>Projects</h3>
     {% for item in site.projects reversed %}
-    <h6>
+    <h4>
       {{ item.title }}
-    </h6>
-    <br>
-    <img src="{{ item.image }}" width ="50%">
-    <p>
+    </h4>
+    <img src="{{ item.image }}" width ="100%">
+   
       {{ item.content }}
-    </p>
+    
     {% endfor %}
 
   </div>
-</div>
+
 
 {% include footer.html %}
