@@ -1,15 +1,26 @@
 {% include head.html %}
 {% include header.html %}
-
+<div style="margin-left: 120px; margin-right: 20px;">
 <div class="row">
-  <div class="one column"></div>
-  <div class="eight columns">
-    <h3>News:</h3>
-
+ 
+  <div class="twelve columns">
+    <h3>News</h3>
+    
+    {% assign news_dates = site.news | map: "date" %}
+    
+    {% for item in news_dates %}
+    {% if item >= site.time %}
+    {% assign future = true %}
+    {% else %}
+    {% assign future = false %}
+    {% endif %}
+    {% endfor %}
+    
+    {% if future == true %}
     {% for item in site.news %}
     {% if item.date >= site.time %}   
     <p>
-      <h6>{{item.date | date: "%B %-d, %Y"}}</h6> {{item.content}}
+      <em>{{item.date | date: "%B %-d, %Y"}}</em> &mdash; {{item.content}}
     </p>
     {% endif %}
     {% endfor %}
@@ -18,24 +29,44 @@
     {% for item in site.news reversed %}
     {% if item.date <= site.time %}
     <p>
-      <h6>{{ item.date | date: "%B %-d, %Y" }}</h6> {{item.content}}
+      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content}}
     </p>
     {% endif %}
     {% endfor %}
     </div>
-    <h3>Projects:</h3>
-    {% for item in site.projects reversed %}
-    <h6>
-      {{ item.title }}
-    </h6>
-    <br>
-    <img src="{{ item.image }}" width ="50%">
+    {% else %}
+    {% for item in site.news reversed limit: 5 %}
+    
     <p>
-      {{ item.content }}
+      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content}}
     </p>
+    
     {% endfor %}
-
+    
+    {% endif %}
   </div>
-</div>
+  
+  <br>
+   <br>
+    
+    <h3>Projects</h3>
+    {% for item in site.projects reversed %}
+    <div class="row">
+    <h4>
+      {{ item.title }}
+    </h4>
+    </div>
+    <div class="row">
+      <div class="six columns">
+    <img src="{{ item.image }}" width ="100%">
+      </div>
+      <div class="six columns">
+	{{ item.content }}
+      </div>
+    </div>
+    {% endfor %}
+    
+  </div>
+
 
 {% include footer.html %}

@@ -6,5 +6,6 @@ start_date:
 end_date:
 item_link:
 image: "images/4onions.jpg"
+published: true
 ---
 My first poetry chapbook, etc.
