@@ -20,7 +20,7 @@
     {% for item in site.news %}
     {% if item.date >= site.time %}   
     <p>
-      <em>{{item.date | date: "%B %-d, %Y"}}</em> &mdash; {{item.content}}
+      <em>{{item.date | date: "%B %-d, %Y"}}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>'}}
     </p>
     {% endif %}
     {% endfor %}
@@ -29,7 +29,7 @@
     {% for item in site.news reversed %}
     {% if item.date <= site.time %}
     <p>
-      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content}}
+      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>'}}
     </p>
     {% endif %}
     {% endfor %}
@@ -38,7 +38,7 @@
     {% for item in site.news reversed limit: 5 %}
     
     <p>
-      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content}}
+      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>' }}
     </p>
     
     {% endfor %}
