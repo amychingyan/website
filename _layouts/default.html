@@ -45,20 +45,27 @@
     
     {% endif %}
   </div>
-
-   
+  
+  <br>
+   <br>
     
     <h3>Projects</h3>
     {% for item in site.projects reversed %}
+    <div class="row">
     <h4>
       {{ item.title }}
     </h4>
+    </div>
+    <div class="row">
+      <div class="six columns">
     <img src="{{ item.image }}" width ="100%">
-   
-      {{ item.content }}
-    
+      </div>
+      <div class="six columns">
+	{{ item.content }}
+      </div>
+    </div>
     {% endfor %}
-
+    
   </div>
 
 
