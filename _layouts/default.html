@@ -52,16 +52,20 @@
     <h3>Projects</h3>
     {% for item in site.projects reversed %}
     <div class="row">
+      <div class="eight columns">
     <h4>
       {{ item.title }}
     </h4>
+      </div>
+      <div class="four columns"></div>
     </div>
     <div class="row">
-      <div class="six columns">
-    <img src="{{ item.image }}" width ="100%">
-      </div>
+
       <div class="six columns">
 	{{ item.content }}
+      </div>
+      <div class="six columns">
+	<img src="{{ item.image }}" width ="100%">
       </div>
     </div>
     {% endfor %}

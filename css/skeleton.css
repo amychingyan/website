@@ -165,6 +165,8 @@ p {
 a {
   text-decoration: underline;
   text-underline-position: under;
+  /* text-decoration-style: wavy; */
+  text-decoration-thickness: 2px;
   color: #222;
 
 }
