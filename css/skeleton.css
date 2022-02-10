@@ -418,10 +418,6 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
  */
 
-.headline {
-  
-
-}
 
 .tube {
   margin-left: 5%;
@@ -461,6 +457,8 @@ there.
     font-size: 70px;
     padding-bottom: 25px;
     color: #222;
+    margin-left: 0%;
+    margin-right: 0%;
 
   }
 
