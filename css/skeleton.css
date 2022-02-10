@@ -42,7 +42,7 @@
   box-sizing: border-box; }
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
+@media (min-width: 440px) {
   .container {
     width: 85%;
     padding: 0; }
@@ -139,8 +139,8 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 h1 { font-size: 6.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 4rem; line-height: 1.25; letter-spacing: -.1rem; font-family: 'Times New Roman'}
-h3 { font-size: 50px; line-height: 1.3;  letter-spacing: -.1rem; font-family: 'Times New Roman'; text-decoration: underline; text-underline-position: under; }
+h2 { font-size: 6vw; line-height: 1.25; letter-spacing: -.1rem; font-family: 'Times New Roman'}
+h3 { font-size: 9vw; line-height: 1.3;  letter-spacing: -.1rem; font-family: 'Times New Roman'; text-decoration: underline; text-underline-position: under; }
 h4 { font-size: 40px; line-height: 1.35; letter-spacing: -.08rem; font-style: italic; font-family: 'Times New Roman';}
 /* h4 { font-size: 2.2rem; line-height: 1.35; letter-spacing: -.08rem; text-decoration: underline; text-underline-position: under; text-decoration-thickness: 2px; font-style: italic;} */
 h5 { font-size: 2.2rem; line-height: 1.5;  letter-spacing: -.05rem; }
@@ -157,7 +157,8 @@ h6 { font-size: 2rem; line-height: 1.6;  letter-spacing: 0; display: inline; fon
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 
 /* Links
@@ -415,8 +416,26 @@ Note: The best way to structure the use of media queries is to create the querie
 near the relevant code. For example, if you wanted to change the styles for buttons
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
-*/
+ */
 
+.headline {
+  
+
+}
+
+.tube {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+.headline {
+  /* margin-left: 5%;
+     margin-right: 5%; */
+  font-family: 'Times New Roman';
+  text-align: center;
+  font-size: 10vw;
+  
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
@@ -425,7 +444,28 @@ there.
 @media (min-width: 550px) {}
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media (min-width: 750px) {
+  .tube {margin-left: 120px;
+    margin-right: 20px;}
+  .headline {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background-color: #FFF;
+    font-family: 'Times New Roman';
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    text-align: right;
+    font-size: 70px;
+    padding-bottom: 25px;
+    color: #222;
+
+  }
+
+
+}
 
 /* Larger than desktop */
 @media (min-width: 1000px) {}
