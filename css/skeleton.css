@@ -429,8 +429,8 @@ there.
 
 }
 .headline {
-  /* margin-left: 5%;
-     margin-right: 5%; */
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: 'Times New Roman';
   text-align: left;
   font-size: 10vw;
