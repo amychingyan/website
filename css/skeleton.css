@@ -122,7 +122,9 @@ html {
   font-size: 62.5%;
 background-color: #FFF;}
 body {
-  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  /* font-size: 2em; */
+ 
+  /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Helvetica", Helvetica, Arial, sans-serif;
@@ -154,10 +156,13 @@ h6 { font-size: 2rem; line-height: 1.6;  letter-spacing: 0; display: inline; fon
   h4 { font-size: 35px; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 2rem; }
+  p {font-size: 2em;}
 }
 
 p {
   margin-top: 0;
+  font-size: 2em;
+  
 }
 
 
