@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { font-size: 6.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
 h2 { font-size: 6vw; line-height: 1.25; letter-spacing: -.1rem; font-family: 'Times New Roman'}
 h3 { font-size: 9vw; line-height: 1.3;  letter-spacing: -.1rem; font-family: 'Times New Roman'; text-decoration: underline; text-underline-position: under; }
-h4 { font-size: 40px; line-height: 1.35; letter-spacing: -.08rem; font-style: italic; font-family: 'Times New Roman';}
+h4 { font-size: 7vw; line-height: 1.35; letter-spacing: -.08rem; font-style: italic; font-family: 'Times New Roman';}
 /* h4 { font-size: 2.2rem; line-height: 1.35; letter-spacing: -.08rem; text-decoration: underline; text-underline-position: under; text-decoration-thickness: 2px; font-style: italic;} */
 h5 { font-size: 2.2rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 2rem; line-height: 1.6;  letter-spacing: 0; display: inline; font-style: italic;}
