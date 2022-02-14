@@ -5,7 +5,7 @@ tags:
 start_date: 2019-01-01
 end_date: 2020-12-01
 item_link: 
-image: "images/unofficial_bench.JPG"
+image: "images/unofficial_bench.jpg"
 ---
 
 
