@@ -438,7 +438,7 @@ there.
   
 }
 #hide_small {
-  display: none;
+  visibility: hidden;
 
 }
 #show_small {
@@ -454,7 +454,7 @@ display: inline;
     display: inline;
   }
   #show_small {
-    display: none;
+    display: none !important;
 
   }
 }
