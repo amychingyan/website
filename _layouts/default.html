@@ -13,14 +13,15 @@
     {% endfor %}
 
     <p>
-      <a href=""><em>Older News</em></a>
+      <span id="flip"><a href="#"><em>Older News</em></a></span>
     </p>
+    <div id="panel">
     {% for item in rev_dates offset: 5 %}
         <p>
 	  <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>' }}
 	</p>   
 	{% endfor %}
-	
+    </div>
   </div>
   <div class="four columns"></div>
 </div>
