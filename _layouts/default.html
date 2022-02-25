@@ -39,7 +39,11 @@
       {{ item.title }}
     </h4>
       </div>
-      <div class="four columns"></div>
+      <div id="show_small">
+	<img src="{{ item.image }}" width ="100%">
+	<br>
+	<br>
+	<div class="four columns"></div>
     </div>
     <div class="row">
 
@@ -47,7 +51,7 @@
 	{{ item.content }}
       </div>
       <div class="six columns">
-	<img src="{{ item.image }}" width ="100%">
+	<img src="{{ item.image }}" width ="100%" id="hide_small">
       </div>
     </div>
     {% endfor %}

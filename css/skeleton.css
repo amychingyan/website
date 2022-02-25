@@ -437,12 +437,27 @@ there.
   font-size: 10vw;
   
 }
+#hide_small {
+  display: none;
+
+}
+#show_small {
+display: inline;
+}
 
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  #hide_small {
+    display: inline;
+  }
+  #show_small {
+    display: none;
+
+  }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -471,10 +486,17 @@ there.
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+
+
+}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media (min-width: 2000px) {
+  .tube {
+    margin-right: 15%;
+  }
+}
 
 #panel {
   display: none;
