@@ -3,48 +3,27 @@
 <div class="tube">
 <div class="row">
  
-  <div class="twelve columns">
+  <div class="eight columns">
     <h3>News</h3>
-    
-    {% assign news_dates = site.news | map: "date" %}
-    
-    {% for item in news_dates %}
-    {% if item >= site.time %}
-    {% assign future = true %}
-    {% else %}
-    {% assign future = false %}
-    {% endif %}
-    {% endfor %}
-    
-    {% if future == true %}
-    {% for item in site.news %}
-    {% if item.date >= site.time %}   
-    <p>
-      <em>{{item.date | date: "%B %-d, %Y"}}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>'}}
-    </p>
-    {% endif %}
-    {% endfor %}
-    <a href="javascript:ReverseDisplay('content hidden')">Older News:</a>
-    <div id="content hidden" style="display: none;">
-    {% for item in site.news reversed %}
-    {% if item.date <= site.time %}
-    <p>
-      <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>'}}
-    </p>
-    {% endif %}
-    {% endfor %}
-    </div>
-    {% else %}
-    {% for item in site.news reversed limit: 5 %}
-    
+    {% assign rev_dates = site.news | reverse %}
+    {% for item in rev_dates  limit: 5 %}
     <p>
       <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>' }}
-    </p>
-    
+    </p>   
     {% endfor %}
-    
-    {% endif %}
+
+    <p>
+      <a href=""><em>Older News</em></a>
+    </p>
+    {% for item in rev_dates offset: 5 %}
+        <p>
+	  <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>' }}
+	</p>   
+	{% endfor %}
+	
   </div>
+  <div class="four columns"></div>
+</div>
   
   <br>
    <br>
@@ -70,7 +49,7 @@
     </div>
     {% endfor %}
     
-  </div>
+
 
 
 {% include footer.html %}
