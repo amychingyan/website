@@ -438,11 +438,13 @@ there.
   
 }
 #hide_small {
-  visibility: hidden;
+  width: 0;
+  height: 0;
 
 }
 #show_small {
-display: inline;
+  width: 100%;
+  height: auto;
 }
 
 /* Larger than mobile */
@@ -451,10 +453,12 @@ display: inline;
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   #hide_small {
-    display: inline;
+    width: 100%;
+    height: auto;
   }
   #show_small {
-    display: none !important;
+    width: 0;
+    height: 0;
 
   }
 }
