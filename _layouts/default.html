@@ -29,8 +29,10 @@
   <br>
    <br>
     
-    <h3>Projects</h3>
-    {% for item in site.projects reversed %}
+   <h3>Projects</h3>
+
+   {% assign sorted = site.projects | sort: 'url' | reversed %}
+    {% for item in sorted  %}
     <div class="row">
       <div class="eight columns">
     <h4>
