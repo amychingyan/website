@@ -169,11 +169,12 @@ p {
 /* Links
    –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  text-decoration: underline;
-  text-underline-position: under;
+  text-decoration: none;
+  color: #0000ff;
+  /* text-underline-position: under; */
   /* text-decoration-style: wavy; */
-  text-decoration-thickness: 2px;
-  color: #222;
+  /* text-decoration-thickness: 2px;
+     color: #222; */
 
 }
 a:visited {text-decoration: underline;
