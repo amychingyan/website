@@ -8,7 +8,7 @@ item_link:
 image: "images/cookiemonster.png"
 ---
 
-C\*\\*\kie M\*\nster \*\nterpreter is a livestream lecture-performance-performance "about" translation, cuteness and the un-human (monsterdom). Based on a true story!
+C\*\*kie M\*nster \*nterpreter is a livestream lecture-performance-performance "about" translation, cuteness and the un-human (monsterdom). Based on a true story!
 
 A collaboration with [Oliver Husain](http://www.husain.de/). With Aliya Pabani. Sound by Matt Smith/Prince Nifty. Assistance from Monica Moraru.
 
