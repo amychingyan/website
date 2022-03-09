@@ -178,7 +178,7 @@ a {
 
 }
 a:visited {text-decoration: underline;
-  color: #222;}
+  color: #0000ff;}
 a:hover {
   color: #0000ff;
   text-shadow: 0 0 2px #cc5500;
