@@ -12,7 +12,7 @@ C\*\*kie M\*nster \*nterpreter is a livestream lecture-performance-performance "
 
 A collaboration with [Oliver Husain](http://www.husain.de/). With Aliya Pabani. Sound by Matt Smith/Prince Nifty. Assistance from Monica Moraru.
 
-Watch the archived livestream at [twitch.tv/cookiemonsterinterpreter](http://twitch.tv/cookiemonsterinterpreter).
+Watch the archived livestream at [twitch.tv/cookiemonsterinterpreter](http://twitch.tv/cookiemonsterinterpreter)
 
 Presented by the [11th Seoul MediaCity Biennale](https://www.mediacityseoul.kr/en/c-kie-m-nster-nterpreter), on Nov. 14, 2021.
 
