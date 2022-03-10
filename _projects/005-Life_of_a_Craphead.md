@@ -8,4 +8,4 @@ item_link: http://www.lifeofacraphead.com/
 image: "images/LOAC_KingEdward_2.jpg"
 published: true
 ---
-Life of a Craphead was the art collective of myself and Jon McCurley in performance, film, and conceptual art (2016-2020). Our work is archived at [lifeofacraphead.com](https://www.lifeofacraphead.com).
+Life of a Craphead was the art collective of myself and Jon McCurley in performance, film, and conceptual art (2006-2020). Our work is archived at [lifeofacraphead.com](https://www.lifeofacraphead.com)
