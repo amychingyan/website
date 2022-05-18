@@ -13,5 +13,7 @@ published: true
 
 Presented by Eastside Projects and Birmingham 2022 Festival, summer 2022.
 
+Animation in collaboration with Emerson Maxwell. Meadow in collaboration with Sahjan Kooner.
+
   
 
