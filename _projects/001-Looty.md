@@ -5,7 +5,7 @@ tags: Film, books, exhibition
 start_date:
 end_date:
 item_link:
-image: "images/Looty animated.jpg"
+image: "images/Looty.jpg"
 published: true
 ---
 
@@ -13,7 +13,9 @@ published: true
 
 Presented by Eastside Projects and Birmingham 2022 Festival, summer 2022.
 
-Animation by Emerson Maxwell. 
+[Download the PDF of the book *Looty Goes to Heaven*](images/Looty-Goes-to-Heaven_final.pdf)
+
+[Watch the animation, made in collaboration with Emerson Maxwell](https://eastsideprojects.org/stream/amy-ching-yan-lam-looty-goes-to-heaven-2/)
 
   
 
