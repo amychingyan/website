@@ -6,7 +6,7 @@
   <div class="eight columns">
     <h3>News</h3>
     {% assign rev_dates = site.news | reverse %}
-    {% for item in rev_dates  limit: 5 %}
+    {% for item in rev_dates  limit: 4 %}
     <p>
       <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>' }}
     </p>   
@@ -16,7 +16,7 @@
       <span id="flip"><a href="#"><em>Older News</em></a></span>
     </p>
     <div id="panel">
-    {% for item in rev_dates offset: 5 %}
+    {% for item in rev_dates offset: 4 %}
         <p>
 	  <em>{{ item.date | date: "%B %-d, %Y" }}</em> &mdash; {{item.content | remove: '<p>' | remove: '</p>' }}
 	</p>   
