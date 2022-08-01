@@ -5,7 +5,7 @@ tags: Film, books, exhibition
 start_date:
 end_date:
 item_link:
-image: "images/looty.jpg"
+image: "images/Looty animated.jpg"
 published: true
 ---
 
