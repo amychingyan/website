@@ -13,7 +13,7 @@ published: true
 
 Presented by Eastside Projects and Birmingham 2022 Festival, summer 2022.
 
-Available for purchase at [Art Metropole](https://artmetropole.com/shop/15147) or at Burley Fisher Books in London.
+The book is available for purchase at [Art Metropole](https://artmetropole.com/shop/15147) or at Burley Fisher Books in London.
 
 [Download the PDF of the book *Looty Goes to Heaven*](pdfs/Looty-Goes-to-Heaven_final.pdf)
 
