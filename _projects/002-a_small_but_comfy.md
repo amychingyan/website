@@ -1,23 +1,23 @@
 ---
-date: 2022-06-04
-title: Looty Goes to Heaven 洛蒂上天堂
+date: 2023-03-25
+title: a small but comfy house and maybe a dog
 tags: Film, books, exhibition
 start_date:
 end_date:
 item_link:
-image: "images/Looty animated.jpg"
+image: "images/asmallbutcomfy.jpg"
 published: true
 ---
 
-[*Looty Goes to Heaven*](https://eastsideprojects.org/projects/looty-goes-to-heaven/) re-imagines the life of a Pekingese dog that was looted from China during the second Opium War, brought to England, gifted to Queen Victoria and renamed “Looty.” The project takes the form of an animation, a speculative fiction, and a poppy meadow in Birmingham, UK, which is the current site of Crufts, the largest dog show in the world, as well as the home of Ty-phoo tea, a brand named after the Chinese word for doctor. *Looty Goes to Heaven* pulls at the threads of fantasy, death, and sleep within the trades of tea, opium, and dogs.
+[a small but comfy house and maybe a dog](https://www.richmondartgallery.org/smallcomfyhouse) at Richmond Art Gallery, BC, with HaeAhn Woo Kwon. From April 22 to June 11, 2023.
 
-Presented by Eastside Projects and Birmingham 2022 Festival, summer 2022.
+The title of this exhibition comes from a text, “Me in the Future,” that I wrote at age eleven and put in a time capsule, speculating by the age of twenty-five I'd be married, have a career, and “a small but comfy house and maybe a dog.” Starting from these childhood fantasies of domestic love and financial stability, this exhibition explores how these dreams function within the wider contexts of colonial history, property, theft, and institutional collections. With sculptures and fountains made in collaboration with HaeAhn Woo Kwon, a new lending program between the Richmond Art Gallery's collection and the Richmond Public Library next door, and Feng shui consultation.
 
-The book is available for purchase at [Art Metropole](https://artmetropole.com/shop/15147) or at Burley Fisher Books in London.
+This exhibition will be accompanied by an artist book, co-published by Book Works in 2024.
 
-[Download the PDF of the book *Looty Goes to Heaven*](pdfs/Looty-Goes-to-Heaven_final.pdf)
+Curated by Su-Ying Lee.
 
-[Watch the animation, made in collaboration with Emerson Maxwell](https://eastsideprojects.org/stream/amy-ching-yan-lam-looty-goes-to-heaven-2/)
+Opening & artist talk on April 22! 
 
   
 
