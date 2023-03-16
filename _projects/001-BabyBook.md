@@ -9,7 +9,7 @@ image: "images/babybook_web.png"
 published: true
 ---
 
-[*Baby Book*](https://www.brickbooks.ca/shop/baby-book-by-amy-ching-yan-lam/) is my first collection of poetry, out April 1, 2023.
+[*Baby Book*](https://www.brickbooks.ca/shop/baby-book-by-amy-ching-yan-lam/) is my first collection of poetry, out April 1, 2023, published by Brick Books.
 
 Direct and humorous, Baby Book stacks story upon story to explore how beliefs are first formed. From a family vacation on a discount bus tour to a cosmogony based on cheese, these poems accumulate around principles of contingency and revelation. Amy Ching-Yan Lam describes the vivid tactility of growth and death—how everything is constantly, painfully remade—offering a vision against the stuck narratives of property and inheritance. Power is located in the senses, in wind: multiple and restless.
 
