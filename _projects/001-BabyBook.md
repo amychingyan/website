@@ -1,23 +1,25 @@
 ---
-date: 2022-06-04
-title: Looty Goes to Heaven 洛蒂上天堂
-tags: Film, books, exhibition
+date: 2023-03-16
+title: Baby Book
+tags: poetry, books
 start_date:
 end_date:
 item_link:
-image: "images/Looty animated.jpg"
+image: "images/babybook_web.png"
 published: true
 ---
 
-[*Looty Goes to Heaven*](https://eastsideprojects.org/projects/looty-goes-to-heaven/) re-imagines the life of a Pekingese dog that was looted from China during the second Opium War, brought to England, gifted to Queen Victoria and renamed “Looty.” The project takes the form of an animation, a speculative fiction, and a poppy meadow in Birmingham, UK, which is the current site of Crufts, the largest dog show in the world, as well as the home of Ty-phoo tea, a brand named after the Chinese word for doctor. *Looty Goes to Heaven* pulls at the threads of fantasy, death, and sleep within the trades of tea, opium, and dogs.
+[*Baby Book*](https://www.brickbooks.ca/shop/baby-book-by-amy-ching-yan-lam/) is my first collection of poetry, out April 1, 2023.
 
-Presented by Eastside Projects and Birmingham 2022 Festival, summer 2022.
+Direct and humorous, Baby Book stacks story upon story to explore how beliefs are first formed. From a family vacation on a discount bus tour to a cosmogony based on cheese, these poems accumulate around principles of contingency and revelation. Amy Ching-Yan Lam describes the vivid tactility of growth and death—how everything is constantly, painfully remade—offering a vision against the stuck narratives of property and inheritance. Power is located in the senses, in wind: multiple and restless.
 
-The book is available for purchase at [Art Metropole](https://artmetropole.com/shop/15147) or at Burley Fisher Books in London.
+*
 
-[Download the PDF of the book *Looty Goes to Heaven*](pdfs/Looty-Goes-to-Heaven_final.pdf)
+“These poems draw the reader in with the intimacy of the personal and the individual, only to break your heart with the collective world-making violences of colonial extraction, displacement, and capitalism’s accumulations. These are poems and a poetics of ethics.” — Rinaldo Walcott, author of *On Property*
 
-[Watch the animation, made in collaboration with Emerson Maxwell](https://eastsideprojects.org/stream/amy-ching-yan-lam-looty-goes-to-heaven-2/)
+“Baby Book is a gorgeous book of poems that refract global histories through the prisms of social, familial, and daily life. Lam’s poems are full of pleasure and surprise.” — Aurelia Guo, author of *World of Interiors*
 
-  
+“What happens when a sense memory steals us away? Like a hole cut into a museum wall that pulls smells from the cafe downstairs into the gallery, Amy Ching-Yan Lam’s poems are a seduction of non-destination. What becomes of a sense memory who is also an ancestor? An ancestor never met, an ancestor-to-become, an ancestor to spend more time with. Baby Book‘s collective surrogacy undoes lineage for all our sakes. For the sake of death, for the sake of life, for heaven’s sake, praise this beautiful Baby Book.” — Park McArthur, artist
+
+“I loved reading this book. Amy Ching-Yan Lam’s writing swims in the gravest sweetness, like a brain.” — Hannah Black, author of *Tuesday or September or the End*
 
