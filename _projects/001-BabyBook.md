@@ -11,13 +11,9 @@ published: true
 
 [*Baby Book*](https://www.brickbooks.ca/shop/baby-book-by-amy-ching-yan-lam/) is my first collection of poetry, out April 1, 2023, published by Brick Books.
 
-Direct and humorous, Baby Book stacks story upon story to explore how beliefs are first formed. From a family vacation on a discount bus tour to a cosmogony based on cheese, these poems accumulate around principles of contingency and revelation. Amy Ching-Yan Lam describes the vivid tactility of growth and death—how everything is constantly, painfully remade—offering a vision against the stuck narratives of property and inheritance. Power is located in the senses, in wind: multiple and restless.
+*Direct and humorous, Baby Book stacks story upon story to explore how beliefs are first formed. From a family vacation on a discount bus tour to a cosmogony based on cheese, these poems accumulate around principles of contingency and revelation. Amy Ching-Yan Lam describes the vivid tactility of growth and death—how everything is constantly, painfully remade—offering a vision against the stuck narratives of property and inheritance. Power is located in the senses, in wind: multiple and restless.*
 
 *
-
-“These poems draw the reader in with the intimacy of the personal and the individual, only to break your heart with the collective world-making violences of colonial extraction, displacement, and capitalism’s accumulations. These are poems and a poetics of ethics.” — Rinaldo Walcott, author of *On Property*
-
-“Baby Book is a gorgeous book of poems that refract global histories through the prisms of social, familial, and daily life. Lam’s poems are full of pleasure and surprise.” — Aurelia Guo, author of *World of Interiors*
 
 “What happens when a sense memory steals us away? Like a hole cut into a museum wall that pulls smells from the cafe downstairs into the gallery, Amy Ching-Yan Lam’s poems are a seduction of non-destination. What becomes of a sense memory who is also an ancestor? An ancestor never met, an ancestor-to-become, an ancestor to spend more time with. Baby Book‘s collective surrogacy undoes lineage for all our sakes. For the sake of death, for the sake of life, for heaven’s sake, praise this beautiful Baby Book.” — Park McArthur, artist
 
