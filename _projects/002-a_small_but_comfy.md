@@ -18,12 +18,9 @@ This exhibition will be accompanied by an artist book, co-published by Book Work
 Curated by Su-Ying Lee.
 
 Press:
-
-~ a review in The Tyee by Dorothy Woodend, ["Did You Get What You Wanted from This Life?"](https://thetyee.ca/Culture/2023/05/05/Amy-Ching-Yan-Lam-First-Solo-Show/)
-
-~ a radio segment on CBC [*The Early Edition*](https://www.cbc.ca/listen/live-radio/1-91-the-early-edition/clip/15982571-a-small-comfy-house-maybe-dog)
-
-~ on [Fairchild TV 熒幕八爪娛 / What's On](https://youtu.be/8ne-gpKKoVA?t=344) 
+• a review in The Tyee by Dorothy Woodend, ["Did You Get What You Wanted from This Life?"](https://thetyee.ca/Culture/2023/05/05/Amy-Ching-Yan-Lam-First-Solo-Show/)
+• a radio segment on CBC [*The Early Edition*](https://www.cbc.ca/listen/live-radio/1-91-the-early-edition/clip/15982571-a-small-comfy-house-maybe-dog)
+• on [Fairchild TV 熒幕八爪娛 / What's On](https://youtu.be/8ne-gpKKoVA?t=344) 
 
   
 
