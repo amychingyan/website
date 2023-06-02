@@ -15,7 +15,11 @@ published: true
 
 *
 
-“What happens when a sense memory steals us away? Like a hole cut into a museum wall that pulls smells from the cafe downstairs into the gallery, Amy Ching-Yan Lam’s poems are a seduction of non-destination. What becomes of a sense memory who is also an ancestor? An ancestor never met, an ancestor-to-become, an ancestor to spend more time with. Baby Book‘s collective surrogacy undoes lineage for all our sakes. For the sake of death, for the sake of life, for heaven’s sake, praise this beautiful Baby Book.” — Park McArthur, artist
+“What happens when a sense memory steals us away? Like a hole cut into a museum wall that pulls smells from the cafe downstairs into the gallery, Amy Ching-Yan Lam’s poems are a seduction of non-destination. What becomes of a sense memory who is also an ancestor? An ancestor never met, an ancestor-to-become, an ancestor to spend more time with. Baby Book‘s collective surrogacy undoes lineage for all our sakes. For the sake of death, for the sake of life, for heaven’s sake, praise this beautiful Baby Book.” — Park McArthur]
 
-“I loved reading this book. Amy Ching-Yan Lam’s writing swims in the gravest sweetness, like a brain.” — Hannah Black, author of *Tuesday or September or the End*
+“I loved reading this book. Amy Ching-Yan Lam’s writing swims in the gravest sweetness, like a brain.” — Hannah Black
+
+*
+
+Livestream of the Toronto launch for *Baby Book* on [drip-drop.tv](https://drip-drop.tv/index.html#babybooklaunch): with special guest Mei-mei Berssenbrugge, music by New Chance, video by Marvin Luvualu António, a conversation between myself and Fan Wu, and a sensitive field by Gunnar Floral.
 
