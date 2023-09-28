@@ -23,5 +23,7 @@ Curated by Su-Ying Lee.
 
 • [On Fairchild TV 熒幕八爪娛 / What's On](https://youtu.be/8ne-gpKKoVA?t=344) 
 
+[Installation photos](https://www.richmondartgallery.org/image-galleries?sg=yes&galleryID=110&postid=19051&credit=Michael%20Love%20and%20NK%20Photo&for=installation) and (extended labels written by me)[https://www.richmondartgallery.org/wp-content/uploads/artworks-in-a-small-but-comfy-house-and-maybe-a-dog.pdf]
+
   
 
