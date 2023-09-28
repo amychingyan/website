@@ -19,5 +19,7 @@ The book is available for purchase at [Art Metropole](https://artmetropole.com/s
 
 [Watch the animation, made in collaboration with Emerson Maxwell](https://eastsideprojects.org/stream/amy-ching-yan-lam-looty-goes-to-heaven-2/)
 
+Reviews of *Looty Goes to Heaven*: in [The Brooklyn Rail](https://brooklynrail.org/2023/02/art_books/Amy-Ching-Yan-Lams-Looty-Goes-to-Heaven) by Daniella Sanader, and in [c magazine](https://cmagazine.com/articles/artists-books-may-contain-pictures-looty-goes-to-heaven-by-amy-ching-yan-lam) by Cason Sharpe.
+
   
 
