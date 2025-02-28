@@ -1,9 +1,0 @@
-title: Amy Lam
-email:
-url: /
-  
-collections:
-  projects:
-    output: true
-  news:
-    output: true
