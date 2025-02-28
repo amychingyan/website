@@ -117,11 +117,6 @@ a {
 	border-radius: 3rem 3rem 0 0;
 }
 
-.tab__container button:hover {
-	border-color: var(--text-color);
-	transition: linear 0.125s;
-}
-
 .tab__container button.active {
 	flex-grow: 1;
 	border-color: var(--text-color);
@@ -621,6 +616,10 @@ footer {
 	}
 
 	/* LANDING PAGE STYLING */
+
+input[type='checkbox']:hover, label:hover input[type='checkbox'], input[type='checkbox']:checked:hover {
+	box-shadow: none;
+}
 	.para__project {
 		padding: 1rem 0 0.5rem 0;
 	}
