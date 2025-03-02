@@ -124,6 +124,7 @@ a {
 	color: var(--text-color);
 	z-index: 2;
 	border-radius: 0;
+	min-width: 40%;
 }
 
 .tabcontent {
