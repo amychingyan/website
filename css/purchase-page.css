@@ -1,0 +1,328 @@
+@import 'fonts.css';
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+:root {
+	--project-title-font: 'Iowan Old Style', serif;
+	--body-font: 'Barlow', sans-serif;
+	--menu-font: 'Arial', sans-serif;
+	--filter-font: 'Fahk', sans-serif;
+	--category-font: 'VG500', monospace;
+	--font-size-sm: clamp(0.5rem, 0.45vi + 0.39rem, 0.75rem);
+	--text-color: #38383c;
+	--divider-color: #ececec;
+	--link-color: #d61af1;
+	--disabled-color: #a2a7a7;
+	--buttonbk: #eef0f6;
+	--accent-color: #49ede5;
+	--fade-in-effect: fadeIn 1s;
+	--font-size-sm: clamp(0.5rem, 0.45vi + 0.39rem, 0.75rem);
+	font-size: 16px;
+	font-family: var(--project-title-font);
+	color: var(--text-color);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::selection {
+	background: var(--disabled-color);
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	background-image: linear-gradient(white 90%, rgba(255, 255, 255, 0));
+	z-index: 100;
+}
+
+main {
+	padding: 4rem 2rem 0 2rem;
+}
+
+a {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
+/* TOP MENU / "BACK TO PROJECTS PAGE" */
+
+.tab__container,
+.footer__container {
+	overflow: hidden;
+	width: inherit;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: 0.5rem;
+}
+
+.tab__container .button--back,
+.footer__container a {
+	padding: 1rem;
+	margin: 3px;
+	width: 100%;
+	font-family: var(--menu-font);
+	letter-spacing: -0.85px;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: var(--disabled-color);
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	z-index: 2;
+}
+
+.tab__container .button--back:hover,
+.footer__container a:hover {
+	transition: linear 0.25s;
+	color: var(--text-color);
+	/* border: 1px solid var(--disabled-color); */
+}
+
+/* MAIN PURCHASE DETAILS SECTION */
+
+.purchase__container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 0 2rem;
+	overflow: hidden;
+	height: calc(100vh - 4rem);
+	position: relative;
+}
+
+.purchase__container .purchase--content {
+	position: relative;
+	text-align: center;
+	height: fit-content;
+	cursor: default;
+}
+
+.purchase__container .purchase--content p {
+	font-family: var(--body-font);
+	margin: 0 0 1rem 0;
+}
+
+.purchase__container .purchase--imgs {
+	margin-right: 1rem;
+	overflow-y: scroll;
+}
+
+.purchase__container .purchase--imgs img {
+	width: 100%;
+	height: auto;
+	cursor: ns-resize;
+}
+
+.purchase__container .purchase--content {
+	overflow-y: scroll;
+}
+
+.purchase__container .purchase--content .text__container {
+	overflow-y: scroll;
+	height: calc(100vh - 22rem);
+	position: sticky;
+	top: auto;
+}
+
+.purchase__container .purchase--content .quote--content {
+	margin: 2rem auto 1rem auto;
+	font-style: italic;
+	width: max-content;
+}
+
+.purchase__container .purchase--content .quote--content::after {
+	height: 0.25rem;
+	background: var(--accent-color);
+	margin: 0.15em auto;
+	box-shadow: var(--accent-color) 0px 0px 2px 3px;
+	z-index: 2;
+	border-radius: 12px;
+	color: var(--accent-color);
+	position: revert-layer;
+	display: block;
+	width: 100%;
+	content: '';
+}
+
+.button {
+	color: var(--text-color);
+	font-family: var(--menu-font);
+	font-size: 1.25rem;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: var(--accent-color) 0px 0px 6px 2px inset,
+		rgba(255, 230, 243, 0.33) 0px -3px 3px 0px inset,
+		rgba(255, 230, 243, 0.1) 0px 0px 12px 2px inset;
+	background: var(--buttonbk);
+	width: calc(50% - 4rem);
+	display: block;
+	position: fixed;
+	bottom: 1rem;
+	left: 50%;
+	padding: 0.25rem;
+}
+
+.button:hover {
+	box-shadow: var(--accent-color) 0px 0px 8px 4px inset,
+		rgba(255, 230, 243, 0.33) 0px -3px 3px 0px inset,
+		rgba(255, 230, 243, 0.1) 0px 0px 12px 2px inset;
+	transition: linear 0.125s;
+	cursor: pointer;
+	background: var(--buttonbk);
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 2.5rem;
+	font-family: var(--project-title-font);
+	/* text-align: center; */
+}
+
+figure {
+	display: grid;
+	grid-template-columns: 1fr;
+	align-items: end;
+	margin: 2px 0;
+	width: 100%;
+	height: auto;
+	margin: 2px 0;
+}
+
+figcaption {
+	padding: 0;
+	width: 100%;
+	font-size: var(--font-size-sm);
+}
+
+figcaption p,
+figcaption a {
+	margin: 0;
+}
+
+.purchase--content li {
+	font-family: var(--category-font);
+	font-size: 0.8rem;
+	font-weight: normal;
+	word-break: keep-all;
+	color: var(--disabled-color);
+	border: 1px dotted var(--disabled-color);
+	border-style: dotted none;
+	margin-top: -1px;
+	padding: 0.5rem 0;
+}
+
+.purchase--content ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.purchase__container .purchase--content .shipping--content {
+	margin: 2rem 0;
+}
+.purchase--content .shipping--content h5 {
+	font-family: var(--menu-font);
+	/* font-weight: normal; */
+	font-size: 0.8rem;
+	margin-bottom: 1rem;
+}
+
+.purchase__container .purchase--content .shipping--content p {
+	font-family: var(--menu-font);
+	font-size: 0.8rem;
+}
+
+.purchase__container .purchase--content .shipping--content a {
+	color: var(--link-color);
+	font-size: 0.8rem;
+}
+
+figcaption a {
+	text-decoration: underline;
+	text-underline-offset: 2px;
+	text-decoration-thickness: 1px;
+	cursor: pointer;
+}
+
+.footer__container a {
+	display: block;
+	margin-top: 10vh;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 0px;
+	width: 100vw;
+	background: #fff0;
+	z-index: 1;
+}
+
+@media screen and (max-width: 1260px) {
+	.purchase__container {
+		padding: 0;
+	}
+
+	.button {
+		width: calc(50% - 2rem);
+	}
+}
+
+@media screen and (max-width: 800px) {
+	main {
+		padding: 4rem 2rem;
+	}
+
+	.purchase__container {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto 1fr;
+		overflow-y: scroll;
+		height: 100%;
+	}
+
+	.purchase__container .purchase--imgs {
+		margin-right: 0;
+		grid-row: 2;
+	}
+
+	.purchase__container .purchase--content .text__container {
+		position: relative;
+		height: auto;
+	}
+
+	.button {
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+	}
+}
