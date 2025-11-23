@@ -579,8 +579,8 @@ news--tab:hover {
 	font-family: var(--filter-font);
 }
 
-a.newsItem--description,
-a.pressItem--description {
+.newsItem--description a,
+.pressItem--description a {
 	text-decoration: none;
 }
 
