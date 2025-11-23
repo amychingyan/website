@@ -153,7 +153,7 @@ a {
 
 .purchase__container .purchase--content .text__container {
 	overflow-y: scroll;
-	height: calc(100vh - 22rem);
+	height: calc(100vh - 15rem);
 	position: sticky;
 	top: auto;
 }
@@ -256,14 +256,17 @@ figcaption a {
 }
 .purchase--content .shipping--content h5 {
 	font-family: var(--menu-font);
-	/* font-weight: normal; */
-	font-size: 0.8rem;
 	margin-bottom: 1rem;
 }
 
 .purchase__container .purchase--content .shipping--content p {
 	font-family: var(--menu-font);
 	font-size: 0.8rem;
+}
+
+.purchase__container .purchase--content .shipping--content p strong {
+	background: var(--buttonbk);
+	padding: 0 2px;
 }
 
 .purchase__container .purchase--content .shipping--content a {

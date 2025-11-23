@@ -54,7 +54,7 @@
 }
 
 ::selection {
-	background-color: var(--buttonbk);
+	background: var(--buttonbk);
 }
 
 html,
