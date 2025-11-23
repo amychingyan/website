@@ -9,6 +9,16 @@
 	}
 }
 
+@keyframes orderNow {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
 :root {
 	--project-title-font: 'Iowan Old Style', serif;
 	--body-font: 'Barlow', sans-serif;
@@ -23,6 +33,7 @@
 	--buttonbk: #eef0f6;
 	--accent-color: #49ede5;
 	--fade-in-effect: fadeIn 1s;
+	--rotate: orderNow 30s linear infinite;
 	--font-size-sm: clamp(0.5rem, 0.45vi + 0.39rem, 0.75rem);
 	font-size: 16px;
 	font-family: var(--project-title-font);
@@ -149,7 +160,8 @@ a {
 .para__project,
 .para__news,
 .para__press,
-.para__about, label {
+.para__about,
+label {
 	font-size: 1.75rem;
 	line-height: 1.25;
 	font-family: var(--filter-font);
@@ -309,8 +321,8 @@ input[type='checkbox']:checked:hover {
 	font-family: var(--body-font);
 }
 
-
-.thumbnail a img, .thumbnail a video {
+.thumbnail a img,
+.thumbnail a video {
 	height: auto;
 	width: 100%;
 	display: flex;
@@ -320,6 +332,34 @@ input[type='checkbox']:checked:hover {
 
 .thumbnail a div {
 	width: 100%;
+}
+
+.thumbnail.buy-thumbnail {
+	position: relative;
+}
+
+.thumbnail.buy-thumbnail .buy-button {
+	font-size: 1.25rem;
+	font-family: var(--menu-font);
+	position: absolute;
+	border: 2px dotted var(--accent-color);
+	border-radius: 100%;
+	height: 8.25rem;
+	padding: 1rem;
+	right: 1rem;
+	top: -1rem;
+	z-index: 100;
+	animation: var(--rotate);
+	color: var(--text-color);
+}
+
+.thumbnail.buy-thumbnail .buy-button:hover {
+	box-shadow: var(--accent-color) 0px 0px 8px 4px inset,
+		rgba(255, 230, 243, 0.33) 0px -3px 3px 0px inset,
+		rgba(255, 230, 243, 0.1) 0px 0px 12px 2px inset;
+	transition: linear 0.125s;
+	cursor: pointer;
+	background: var(--buttonbk);
 }
 
 /* about section -- AMY CHING-YAN LAM */
@@ -445,7 +485,8 @@ news--tab:hover {
 	cursor: pointer;
 }
 
-.on, .on:hover {
+.on,
+.on:hover {
 	color: var(--buttonbk);
 	background: var(--accent-color);
 	box-shadow: var(--buttonbk) 0px 0px 1px 1px inset,
@@ -624,9 +665,11 @@ footer {
 
 	/* LANDING PAGE STYLING */
 
-input[type='checkbox']:hover, label:hover input[type='checkbox'], input[type='checkbox']:checked:hover {
-	box-shadow: none;
-}
+	input[type='checkbox']:hover,
+	label:hover input[type='checkbox'],
+	input[type='checkbox']:checked:hover {
+		box-shadow: none;
+	}
 	.para__project {
 		padding: 1rem 0 0.5rem 0;
 	}
