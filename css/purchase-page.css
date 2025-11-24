@@ -267,6 +267,7 @@ figcaption a {
 .purchase__container .purchase--content .shipping--content p strong {
 	background: var(--buttonbk);
 	padding: 0 2px;
+	font-weight: normal;
 }
 
 .purchase__container .purchase--content .shipping--content a {
