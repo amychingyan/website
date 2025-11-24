@@ -156,6 +156,7 @@ a {
 	height: calc(100vh - 15rem);
 	position: sticky;
 	top: auto;
+	overflow-x: hidden;
 }
 
 .purchase__container .purchase--content .quote--content {
@@ -203,6 +204,49 @@ a {
 	transition: linear 0.125s;
 	cursor: pointer;
 	background: var(--buttonbk);
+}
+
+.purchase__container .purchase--content details .checkout--items p {
+	border-top: 2px double var(--accent-color);
+	padding-top: 1rem;
+}
+
+.purchase__container .purchase--content details .checkout--items p,
+.purchase__container .purchase--content details .checkout--items li {
+	font-family: var(--menu-font);
+}
+
+.purchase__container .purchase--content details .checkout--items li {
+	border: none;
+	font-size: 1rem;
+}
+
+.purchase__container .purchase--content details .checkout--items li + li {
+	border-top: 1px solid var(--divider-color);
+}
+
+.purchase__container .purchase--content details .checkout--items li a:hover {
+	text-decoration: underline;
+}
+
+details[open] .button {
+	color: var(--buttonbk);
+	background: var(--accent-color);
+	box-shadow: var(--buttonbk) 0px 0px 1px 1px inset,
+		rgba(255, 230, 243, 0.33) 0px -3px 3px 0px inset,
+		rgba(255, 230, 243, 0.1) 0px 0px 12px 2px inset;
+	border: 1px solid var(--accent-color);
+}
+
+details[open] .checkout--items {
+	transform: translateY(-100%);
+
+	background-image: linear-gradient(
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0.5) 3rem,
+		white 4rem
+	);
+	padding: 4rem 0 1rem 0;
 }
 
 h1 {
@@ -298,10 +342,9 @@ footer {
 }
 
 @media screen and (max-width: 1260px) {
-
 	.tab__container .button--back {
-  padding: 1rem calc(0.5rem - 3px); 
-}
+		padding: 1rem calc(0.5rem - 3px);
+	}
 	main {
 		padding: 4rem 1rem 0 1rem;
 	}
@@ -318,9 +361,9 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-	  main {
-    padding: 4rem 1rem;
-  }
+	main {
+		padding: 4rem 1rem;
+	}
 	.purchase__container {
 		grid-template-columns: 1fr;
 		grid-template-rows: 35vh 65vh;
@@ -340,13 +383,54 @@ footer {
 	}
 
 	.button {
-		width: calc(100% - 4rem);
-		bottom: 1rem;
-		left: 2rem;
+		width: 100%;
+		bottom: 0rem;
+		left: 0rem;
 		padding: 1rem;
+		z-index: 100;
+		display: block;
+		position: relative;
 	}
 
-	.tab__container .button--back  {
+	details {
+		position: fixed;
+		width: 100%;
+		bottom: 0rem;
+		left: 0rem;
+		padding: 1rem;
+		z-index: 100;
+		display: block;
+		background-image: linear-gradient(
+			rgba(255, 255, 255, 0),
+			rgba(255, 255, 255, 1) 1rem
+		);
+	}
+
+	.purchase__container .purchase--content details .checkout--items p {
+		border-top: none;
+		padding-top: 0;
+		margin: 0;
+		font-size: 0.8rem;
+	}
+
+
+	.purchase__container .purchase--content details .checkout--items li {
+		margin: 0;
+		padding: 1rem;
+	
+	}
+
+
+	details[open] .checkout--items {
+		padding: 1rem 0 0 0;
+		position: inherit;
+		width: inherit;
+		transform: translateY(0);
+		overflow-x: hidden;
+
+	}
+
+	.tab__container .button--back {
 		text-align: center;
 	}
 }
