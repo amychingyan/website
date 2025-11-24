@@ -238,6 +238,17 @@ details[open] .button {
 	border: 1px solid var(--accent-color);
 }
 
+details[open] .button::after {
+	content: '\2715';
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	right: 1rem;
+	top: 0.5rem;
+	font-size: 0.8rem;
+	position: absolute;
+}
+
 details[open] .checkout--items {
 	transform: translateY(-100%);
 
@@ -413,13 +424,10 @@ footer {
 		font-size: 0.8rem;
 	}
 
-
 	.purchase__container .purchase--content details .checkout--items li {
 		margin: 0;
 		padding: 1rem;
-	
 	}
-
 
 	details[open] .checkout--items {
 		padding: 1rem 0 0 0;
@@ -427,7 +435,6 @@ footer {
 		width: inherit;
 		transform: translateY(0);
 		overflow-x: hidden;
-
 	}
 
 	.tab__container .button--back {
