@@ -244,7 +244,7 @@ details[open] .button::after {
 	color: white;
 	position: absolute;
 	right: 1rem;
-	top: 0.5rem;
+	top: calc(50% - 9px);
 	font-size: 0.8rem;
 	position: absolute;
 }
