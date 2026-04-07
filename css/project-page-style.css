@@ -42,6 +42,17 @@
 	background: var(--disabled-color);
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
 html,
 body {
 	margin: 0;
@@ -196,6 +207,11 @@ a {
 	width: 100%;
 }
 
+.project__sticky .project--details li {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
 .project__sticky a,
 .book-launch a {
 	color: var(--link-color);
@@ -239,15 +255,13 @@ a {
 	text-align: justify;
 }
 
-
 .project__text sup {
 	text-align: right;
 	/* border-top-color: 1px solid var(--divider-color); */
 	display: block;
 	color: var(--disabled-color);
 	margin: 1rem 0;
-
-	}
+}
 
 .project__text p a {
 	padding: 0 2px;
@@ -346,7 +360,6 @@ figcaption a {
 	padding: 0.5rem 0;
 	text-align: center;
 }
-
 
 .book-launch a {
 	text-decoration: underline;
