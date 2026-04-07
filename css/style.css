@@ -287,6 +287,28 @@ input[type='checkbox']:checked:hover {
 	border-left: 1px solid #fff;
 }
 
+
+.thumbnail.other-writings-thumbnail {
+	/* background-image: linear-gradient(to right, white, var(--buttonbk), white );
+  background-repeat: repeat-x;
+  background-size: 4rem; */
+	padding-top: 2rem;
+	box-shadow: 0 0 0.5rem 0.5rem var(--buttonbk) inset;
+ border-right: 1px solid var(--buttonbk);
+}
+
+.thumbnail.other-writings-thumbnail a {
+	border: 1px solid var(--buttonbk);
+  background: white;
+  padding: 1rem 1rem 2rem 1rem;
+  border-radius: 1rem;
+	box-shadow: 0 0 0.25rem 0.25rem var(--buttonbk);
+}
+
+.thumbnail.other-writings-thumbnail img {
+	padding: 1.25rem 0 0 0;
+}
+
 .thumbnail:hover,
 .thumbnail:nth-of-type(4n + 1):hover {
 	border-bottom: 1px dotted var(--link-color);
