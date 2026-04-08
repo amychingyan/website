@@ -10,7 +10,7 @@
 }
 
 :root {
-	--project-title-font: 'Iowan Old Style', serif;
+	--project-title-font: 'Arial', sans-serif;
 	--body-font: 'Barlow', sans-serif;
 	--menu-font: 'Arial', sans-serif;
 	--filter-font: 'Fahk', sans-serif;
@@ -269,11 +269,36 @@ a {
 }
 
 .project__text p a,
-figcaption a {
+figcaption a, .project__text ul li a {
 	text-decoration: underline;
-	text-underline-offset: 2px;
 	text-decoration-thickness: 1px;
 	cursor: pointer;
+}
+
+.project__text p a,
+figcaption a {
+	text-underline-offset: 2px;
+}
+
+.project__text ul li a {
+	color: var(--link-color);
+  text-underline-offset: 3px;
+}
+
+.project__text ul {
+	margin: 0 0 2rem 0;
+	padding: 0;
+	list-style: none;
+}
+
+.project__text ul h4 {text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.project__text ul li {
+	padding: 0.5rem 0;
+  text-align: center;
 }
 
 .project__scroll img,
