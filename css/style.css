@@ -644,7 +644,7 @@ news--tab:hover {
 	text-align: center;
 }
 
-footer {
+.main-page--footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -655,34 +655,46 @@ footer {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
+	    justify-content: center;
 }
 
 .footer-subscribe {
 	padding: 0.25rem 0.25rem 0.25rem 0;
 	border-top: 1px solid var(--text-color);
-	width: 30%;
+	width: min-content;
+	height: 2.15rem;
 	background: #fff;
 	display: inline-flex;
 	border-right: 1px dotted var(--text-color);
+	align-items: baseline;
 }
 
 .footer-subscribe input {
 	text-decoration: none;
-	padding: 0 0.5rem;
+	padding: 0.25rem 0.5rem;
 	outline: none;
 	border: none;
 	font-family: var(--menu-font);
 	font-size: 1rem;
+	height: min-content;
+}
+
+.footer-subscribe input:active ~ button, .footer-subscribe input:focus ~ button  {
+ opacity: 1;
+width: max-content;
 }
 
 .footer-subscribe button {
+	width: 0;
+	padding: 0;
+	opacity: 0;
 	border: none;
 	border-radius: 0;
 	outline: none;
 	font-family: var(--menu-font);
 	font-size: 1rem;
 	background: transparent;
-	width: max-content;
+	/* width: max-content; */
 	color: var(--link-color);
 }
 
@@ -692,7 +704,6 @@ footer {
 	border: 1px solid var(--text-color);
 	border-style: solid none none none;
 	width: calc(100% + 1px);
-	z-index: 100;
 	transform: translateX(-1px);
 }
 
