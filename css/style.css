@@ -389,41 +389,37 @@ input[type='checkbox']:checked:hover {
 .para__about {
 	position: relative;
 	width: 100%;
+	padding: 1rem 2rem 0.5rem 2rem;
 }
 
-.para__about figure {
-	margin: 0 auto;
-	padding: 0 2rem 0rem 0;
-	float: left;
+.para__about p {
+	margin: 1rem 0;
+}
+
+.para__about .about-text p {
+font-family: var(--menu-font);
+font-size: 1rem;
+}
+
+.para__about-img figure {
+padding: 0 2rem;
 	display: flex;
 	flex-direction: column;
-	width: 40%;
-	height: auto;
-	max-width: 350px;
+	width: 25%;
+border: 1px solid var(--divider-color);
 	background: white;
+	border-style: none solid;
+	margin: 0 auto;
 }
 
-.para__about figure img {
-	height: auto;
-	width: 100%;
-	border: 1px solid var(--disabled-color);
-}
 
-.para__about figure figcaption {
+.para__about-img figcaption {
 	font-family: var(--body-font);
 	font-size: var(--font-size-sm);
 	margin: 0.25rem;
 	color: var(--disabled-color);
 }
 
-.para__about div p {
-	margin: 1rem 0;
-}
-
-.para__about .text--primary {
-	border-bottom: 1px solid var(--divider-color);
-	padding-bottom: 1rem;
-}
 
 .para__about .text--secondary {
 	font-family: var(--menu-font);
@@ -431,11 +427,11 @@ input[type='checkbox']:checked:hover {
 	padding: 1rem 0;
 }
 
-.para__about .text--secondary a {
+.para__about a {
 	text-decoration: none;
 }
 
-.para__about .text--contact {
+.para__about .about-links {
 	font-family: var(--menu-font);
 	font-size: 1.25rem;
 	color: var(--disabled-color);
@@ -443,17 +439,20 @@ input[type='checkbox']:checked:hover {
 	padding: 0;
 	display: flex;
 	flex-direction: row;
+  text-align: center;
+	width: 100%;
 }
 
-.text--contact .button {
+
+.para__about .about-links a {
 	margin: 0 auto;
-	width: 33.33%;
+	width: calc(100% / 3);
 	display: block;
 	padding: 0.25rem;
 	align-content: center;
 }
 
-.text--disabled {
+.para__about .about-links + p {
 	padding: 2rem 0;
 	margin: 0;
 	color: var(--disabled-color);
@@ -648,7 +647,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	height: 0.5rem;
+	/* height: 0.5rem; */
 	width: 100%;
 	background: #fff;
 	z-index: 1;
