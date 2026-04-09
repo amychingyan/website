@@ -10,13 +10,13 @@
 }
 
 @keyframes orderNow {
-	from {
+	/* from {
 		transform: rotate(0deg);
 	}
 
 	to {
 		transform: rotate(360deg);
-	}
+	} */
 }
 
 :root {
@@ -290,25 +290,23 @@ input[type='checkbox']:checked:hover {
 }
 
 .thumbnail.other-writings-thumbnail {
-	/* background-image: linear-gradient(to right, white, var(--buttonbk), white );
-  background-repeat: repeat-x;
-  background-size: 4rem; */
-	padding-top: 2rem;
+
+	/* padding-top: 2rem;
 	box-shadow: 0 0 0.5rem 0.5rem var(--buttonbk) inset;
-	border-right: 1px solid var(--buttonbk);
+	border-right: 1px solid var(--buttonbk); */
 }
 
 .thumbnail.other-writings-thumbnail a {
-	border: 1px solid var(--buttonbk);
+	/* border: 1px solid var(--buttonbk);
 	background: white;
 	padding: 1rem 1rem 2rem 1rem;
 	border-radius: 1rem;
 	box-shadow: 0 0 0.25rem 0.25rem var(--buttonbk);
-	width: 100%;
+	width: 100%; */
 }
 
 .thumbnail.other-writings-thumbnail img {
-	padding: 1.25rem 0 0 0;
+	/* padding: 1.25rem 0 0 0; */
 }
 
 .thumbnail:hover,
@@ -392,36 +390,37 @@ input[type='checkbox']:checked:hover {
 .para__about {
 	position: relative;
 	width: 100%;
-	padding: 1rem 2rem 0.5rem 2rem;
 }
 
 .para__about p {
 	margin: 1rem 0;
 }
 
-.para__about .about-text p {
-	font-family: var(--menu-font);
-	font-size: 1rem;
-}
-
-.para__about-img figure {
-	padding: 0 2rem;
+.para__about figure {
+	padding: 0 2rem 1rem 0;
 	display: flex;
 	flex-direction: column;
 	width: 25%;
-	border: 1px solid var(--divider-color);
 	background: white;
-	border-style: none solid;
-	margin: 0 auto;
+	margin: 1rem 0 0 0;
+	width: 40%;
+  height: auto;
+  max-width: 350px;
+	float: left;
 }
 
-.para__about-img figcaption {
+.para__about figcaption {
 	font-family: var(--body-font);
 	font-size: var(--font-size-sm);
 	margin: 0.25rem;
 	color: var(--disabled-color);
 }
 
+.para__about .text--primary {
+	border-bottom: 1px solid var(--divider-color);
+  padding-bottom: 1rem;
+}
+ 
 .para__about .text--secondary {
 	font-family: var(--menu-font);
 	font-size: 1.25rem;
@@ -432,7 +431,7 @@ input[type='checkbox']:checked:hover {
 	text-decoration: none;
 }
 
-.para__about .about-links {
+.para__about .text--links {
 	font-family: var(--menu-font);
 	font-size: 1.25rem;
 	color: var(--disabled-color);
@@ -444,7 +443,7 @@ input[type='checkbox']:checked:hover {
 	width: 100%;
 }
 
-.para__about .about-links a {
+.para__about .text--links a {
 	margin: 0 auto;
 	width: 50%;
 	display: block;
@@ -452,16 +451,15 @@ input[type='checkbox']:checked:hover {
 	align-content: center;
 }
 
-.para__about .about-links + p {
+.para__about .text--tertiary {
 	padding: 2rem 0 4rem 0;
 	margin: 0;
 	color: var(--disabled-color);
 	letter-spacing: -0.85px;
 	font-size: 1rem;
-	text-align: right;
+	text-align: center;
 	font-family: var(--menu-font);
-	font-size: 0.8rem;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 /* news section */
@@ -870,7 +868,7 @@ news--tab:hover {
 	
 	.thumbnail.other-writings-thumbnail,
 	.thumbnail.other-writings-thumbnail:hover {
-		padding: 3rem 1.5rem;
+		/* padding: 3rem 1.5rem; */
 	}
 	
 	.news--tab {
