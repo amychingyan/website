@@ -780,6 +780,10 @@ news--tab:hover {
 		padding: 0 2rem 2rem 2rem;
 	}
 
+	.tabcontent {
+		padding-bottom: 4rem;
+	}
+
 	/* NEWS STYLING */
 	.para__news,
 	.para__press {
