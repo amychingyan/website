@@ -291,7 +291,8 @@ figcaption a {
 	list-style: none;
 }
 
-.project__text ul h4 {text-align: center;
+.project__text ul h4 {
+	text-align: center;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -300,6 +301,24 @@ figcaption a {
 	padding: 0.5rem 0;
   text-align: center;
 }
+
+.project__text.listed-works ul h4 {
+font-family: var(--menu-font);
+font-weight: normal;
+}
+
+.project__text.listed-works ul li p { 
+	  text-align: center;
+		margin: 0.5rem 0 1rem 0;
+}
+.project__text.listed-works ul li p a {
+font-family: var(--body-font);
+color: var(--link-color);
+font-weight: normal;
+text-decoration: none;
+
+}
+
 
 .project__scroll img,
 .project__scroll .video-embed,
