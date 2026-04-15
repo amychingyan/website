@@ -292,23 +292,26 @@ figcaption a {
 }
 
 .project__text ul h4 {
-	text-align: center;
+
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
 
 .project__text ul li {
 	padding: 0.5rem 0;
-  text-align: center;
+
 }
 
 .project__text.listed-works ul h4 {
-font-family: var(--menu-font);
-font-weight: normal;
+font-size: 0.8rem;
+  font-family: var(--menu-font);
+  text-transform: uppercase;
+	font-weight: normal;
+	color: var(--disabled-color);
 }
 
 .project__text.listed-works ul li p { 
-	  text-align: center;
+
 		margin: 0.5rem 0 1rem 0;
 }
 .project__text.listed-works ul li p a {

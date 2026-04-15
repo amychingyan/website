@@ -554,8 +554,7 @@ news--tab:hover {
 	margin: 0;
 }
 
-.newsItem--year,
-.pressItem--year {
+.newsItem--year {
 	color: var(--text-color);
 	margin: 0;
 }
@@ -565,7 +564,7 @@ news--tab:hover {
 	padding-top: 2rem;
 }
 
-.newsItem--category {
+.newsItem--category, .pressItem--year  {
 	color: var(--disabled-color);
 }
 
