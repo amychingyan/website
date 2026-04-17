@@ -668,6 +668,10 @@ news--tab:hover {
 	align-items: baseline;
 }
 
+.footer-subscribe .form-helper {
+display:none !important;
+}
+
 .footer-subscribe input {
 	text-decoration: none;
 	padding: 0.25rem 0.5rem;
@@ -685,16 +689,16 @@ news--tab:hover {
 }
 
 .footer-subscribe button {
-	width: 0;
+	/* width: 0; */
 	padding: 0 0.5rem;
-	opacity: 0;
+	/* opacity: 0; */
 	border: none;
 	border-radius: 0;
 	outline: none;
 	font-family: var(--menu-font);
 	font-size: 1rem;
 	background: transparent;
-	/* width: max-content; */
+	width: max-content;
 	color: var(--link-color);
 }
 
@@ -876,5 +880,21 @@ news--tab:hover {
 
 	.press--tab {
 		min-width: 100%;
+	}
+
+	.footer-subscribe {
+		width: 100%;
+		border-right: none;
+		justify-content: space-between;
+		width: 100%;
+		height: 2.5rem;
+	}
+
+	.footer-subscribe input {
+		height: 100%;
+	}
+
+	.footer-boundary {
+		display: none;
 	}
 }

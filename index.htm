@@ -707,7 +707,6 @@
 						</a>
 					</div>
 
-
 					<!-- Top 20 Reasons… -->
 					<div
 						data-id="top-20-reasons"
@@ -1033,7 +1032,6 @@
 
 				<!-- 2026 listings start -->
 				<div id="now" class="para__news">
-					
 					<!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
 					<!-- Copy/Paste news code snippet below this line -->
 
@@ -1683,20 +1681,68 @@
 			<!-- END OF PROJECT CONTENT-->
 		</main>
 		<footer class="main-page--footer">
-			<div class="footer-subscribe">
-				<input type="text" placeholder="Join email list..." />
-				<button>Add me</button>
-				<!-- <a
-
-							href="https://docs.google.com/forms/d/e/1FAIpQLSfzU8YsgWmDzLkJhjicEM6nQoiIrwMwtQUgJOQErodm-XMZ1w/viewform"
-							target="_blank"
-							title="Join email list"
-							>Join email list</a
-						> -->
-			</div>
+			<form name="emailList" class="footer-subscribe">
+				<div class="form-helper">
+					<label>If you are human, leave this blank:</label>
+					<input
+						tabindex="-1"
+						autocomplete="off"
+						type="text"
+						name="mobile_number"
+					/>
+				</div>
+				<input type="hidden" name="sheet_name" value="emails" />
+				<input
+					maxlength="50"
+					pattern="[^=+\-@].*"
+					title="Emails cannot start with symbols like =, +, -, or @"
+					name="email"
+					type="email"
+					type="text"
+					placeholder="Join email list..."
+					required
+				/>
+				<button class="addMe" type="submit">Add me</button>
+			</form>
 			<div class="footer-boundary"></div>
 		</footer>
+		<script>
+			const scriptURL =
+				'https://script.google.com/macros/s/AKfycbzH0N9vWCrIxwD2zjWR-WPP2Q1hRiKTSVcvj-7Fm97LTNT5cnt4zXtV_Kg5ITThnPbZ/exec';
+			const form = document.forms['emailList'];
 
+			form.addEventListener('submit', (e) => {
+		e.preventDefault(); // Prevent page refresh
+		
+		// Get the button and input elements
+		const submitButton = e.target.querySelector('.addMe') || e.target.querySelector('button[type="submit"]');
+		const emailInput = e.target.querySelector('input[type="email"]');
+		const originalText = submitButton.textContent;
+		submitButton.textContent = 'Added!';
+		
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then((response) => response.json())
+			.then((response) => {
+				console.log('Success!', response);
+			})
+			.catch((error) => {
+				console.error('Error!', error.message);
+				// Show error message on button
+				submitButton.textContent = 'Error!';
+				setTimeout(function() {
+					submitButton.textContent = originalText;
+				}, 500);
+				return; // Don't proceed to success message if there's an error
+			})
+			.then(function() {
+				// After success message, clear the input field
+				setTimeout(function() {
+					submitButton.textContent = originalText;
+					emailInput.value = ''; // Clear the email input
+				}, 500);
+			});
+	});
+		</script>
 		<script
 			src="https://code.jquery.com/jquery-3.7.1.min.js"
 			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
