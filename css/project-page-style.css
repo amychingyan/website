@@ -345,6 +345,10 @@ figure {
 	width: 66.67%;
 }
 
+.project__scroll figure .video-embed {
+	width: 100%;
+}
+
 figcaption {
 	padding: 1rem 0.5rem;
 	width: 50%;
